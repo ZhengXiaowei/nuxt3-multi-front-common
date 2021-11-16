@@ -1,0 +1,41 @@
+[lang^="zh"] body {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+[lang^="en"].f-m {
+  font-family: serif;
+}
+
+[lang^="in"].f-m {
+  font-family: "Courier New", Courier, monospace;
+}
+
+[lang^="kr"].f-m {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+[lang^="vn"].f-m {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+[lang^="en"] {
+  .f-m {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .f-b {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .f-n {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "dev:in": "nuxi dev src/in/",
+    "dev:kr": "nuxi dev src/kr/",
+    "dev:vn": "nuxi dev src/vn/",
+    "dev:eu": "nuxi dev src/eu/",
+    "build:in": "nuxi build src/in/",
+    "build:kr": "nuxi build src/kr/",
+    "build:vn": "nuxi build src/vn/",
+    "build:eu": "nuxi build src/eu/",
+    "start": "node .output/server/index.mjs",
+    "start:in": "node src/in/.output/server/index.mjs",
+    "start:kr": "node src/kr/.output/server/index.mjs",
+    "start:vn": "node src/vn/.output/server/index.mjs",
+    "start:eu": "node src/eu/.output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0"
+  }
+}
