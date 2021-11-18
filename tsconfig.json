@@ -1,7 +1,13 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
-  "paths": {
-    "@common": ["./src/common"]
+  "extends": "./src/in/.nuxt/tsconfig.json",
+  // "extends": "./src/eu/.nuxt/tsconfig.json",
+  // "extends": "./src/kr/.nuxt/tsconfig.json",
+  // "extends": "./src/vn/.nuxt/tsconfig.json",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "paths": {
+      "@common": ["./src/common"]
+    }
   }
 }
